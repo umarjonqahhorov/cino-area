@@ -1,0 +1,58 @@
+/*  /// header qismi uchun //// */
+.header-main {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.kino {
+  color: #3657cb;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+.area {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.link {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.link:hover {
+  transition: 0.3s;
+  color: grey;
+}
+.btn-1 {
+  padding: 13px 46px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 166.5%;
+  border-radius: 10px;
+  background: #3657cb;
+  box-shadow: 0px 0px 15px 0px rgba(72, 113, 255, 0.8);
+}
+.btn-1:hover {
+  transition: 0.3s;
+  color: #3657cb;
+  background: #fff;
+}
