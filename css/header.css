@@ -1,4 +1,7 @@
 /*  /// header qismi uchun //// */
+/* header { */
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+/* } */
 .header-main {
   padding-top: 20px;
   display: flex;
@@ -55,4 +58,54 @@
   transition: 0.3s;
   color: #3657cb;
   background: #fff;
+}
+.logo-sites svg {
+  transition: 0.3s;
+  fill: #686868;
+}
+.logo-sites svg:hover {
+  fill: #fff;
+}
+.header-logo {
+  display: flex;
+  flex-direction: column;
+}
+.logo-main {
+  display: flex;
+}
+.logo-sites {
+  display: flex;
+}
+
+.poisk:hover {
+  transform: rotate(360deg);
+}
+.logo-sites {
+  display: flex;
+  gap: 14px;
+}
+
+/*  ////   header-bottom  ///*/
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 900;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.link-1 {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 18px;
+  font-weight: 700;
+}
+.link-1:hover {
+  transition: 0.3s;
+  color: #fff;
 }
